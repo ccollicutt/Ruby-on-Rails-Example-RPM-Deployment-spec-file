@@ -133,7 +133,7 @@ pushd %{name}
 
 	# Again rake assets:precompile creates public/assets which
 	# shouldn't be in /usr/share/railsapps/%{name} prob cache
-	rm -rf ./public/assets/*
+	#rm -rf ./public/assets/*
 	mv ./public/assets $RPM_BUILD_ROOT/%{cachedir}
 	ln -s %{cachedir}/assets ./public/assets
 
