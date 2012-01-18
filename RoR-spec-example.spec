@@ -58,7 +58,6 @@ Requires: logrotate
 %define configdir /etc/railsapps/%{name}
 %define cachedir /var/cache/railsapps/%{name}
 %define datadir /var/lib/railsapps/%{name}
-%define datadir /var/lib/railsapps/%{name}
 %define logrotatedir /etc/logrotate.d/
 
 %description
