@@ -45,7 +45,7 @@ Requires: logrotate
 
 # What repository to pull the actual code from
 # (assuming git here, you'll need to change for svn or hg)
-%define git_repo https://code.library.ualberta.ca/git/%{name}
+%define git_repo https://code.example.com/git/%{name}
 
 #
 # DIRS
